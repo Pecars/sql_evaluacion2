@@ -39,19 +39,16 @@ Adicionalmente, se espera entregar lo siguiente:
 --- RESOLUCIÓN ---
 
 Se adjunta modelo lógico y relacional de base para la elaboración del ejercicio. Posteriormente, en el Script SQL, 
-se añadieron tablas, columnas, triggers, y FK para facilitar las consultas.
+se añadieron tablas, columnas, triggers, y FK para facilitar las consultas, por lo cual las tablas generadas pueden diferir en ciertos detalles con los modelos.
 
-Se adjunta DDL.
+El archivo pruebasql.sql
+https://github.com/Pecars/sql_evaluacion2/blob/master/pruebasql.sql
+Funcionó como borrador a lo largo de esta evaluación y sirvió para probar los requerimientos de las consultas y las tablas, por lo cual de no aparecer alguna consulta o modificación necesaria para compilar los script es probable que se encuentre en este archivo.
 
-Se adjunta SCRIPT que registra las evaluaciones. 
+Se adjunta DDL https://github.com/Pecars/sql_evaluacion2/blob/master/DDL_generado.ddl
 
-Se adjunta SCRIPT SQL general del desarrollo del trabajo. Se debe señalar que hay algunos registros de tablas que se hicieron
-mediante script, pero debido a problemas relacionados con el reinicio del computador y el no respaldo de la información
-estas modificaciones e inserciones de datos no figuran en el SCRIPT.
-
-Se adjunta Script SQL que registra evaluaciones.
+Se adjunta SCRIPT que registra las preguntas.
 
 Se adjunta SCRIPT SQL que registra cursos con estudiantes, no obstante, se registran solo dos pruebas resueltas
-de estudiantes, por razones de agilidad al momento prueba de script y consultas. 
+de estudiantes. 
 
-Se adjunta Script SQL que responde a preguntas.
