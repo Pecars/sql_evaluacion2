@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86FBA2D7-BE84-DC8D-7B7F-4EEB0C38AE1A" name="alternativas">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>60BC094E-B820-71A1-BF1C-3F9B0D633BAA</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D9DB136E-2388-6483-28AA-D750F629D845">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>5B5CE77C-71DC-3D97-983E-B4E0BA46B88C</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="C9192660-A0C2-A20D-842E-C700373B3AC9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>77B550E1-5DC8-DE59-8239-F0A21A5ED597</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta" id="8C88CF30-1667-57DE-7FDB-9639E26A96EE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>838F3318-150D-459F-065C-7247D7B5564B</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentaje" id="B5FC379C-DE10-CD81-5800-EF5E088BF36E">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>67CB0699-4A0F-7B77-538A-397EBE130D38</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_aportado" id="57856DD0-8F11-B2D2-C40E-0BB8D03A35DE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>5357E56B-177D-B669-19F4-35838A412EC8</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preguntas_id" id="807E94CD-3886-B3ED-19FD-E2803038B790">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>FFDE8738-4F7E-ECFE-202C-7803A9317DB1</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D277A67D-48BF-DE26-8CC8-84612B43B4B5" referredColumn="631E7EF3-DE91-F2E4-FAD7-1BF2501ED945"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93FB2CDA-1FA9-9673-8196-6AE7BF802CAA" name="alternativas_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>E9CA92D9-4AF2-F8C1-1015-F041FB935BBD</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DB136E-2388-6483-28AA-D750F629D845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="230542FC-DC80-B1BB-80EE-01AF3E7A7CD8" name="alternativas_preguntas_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>8A745166-658D-5B6C-1B9F-4A0F22236FF8</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="807E94CD-3886-B3ED-19FD-E2803038B790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

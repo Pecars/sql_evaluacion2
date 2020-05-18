@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="343F145D-16C1-F9CE-2F2B-9EDE3D8AFF7F" name="estudiante">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>8AF73A44-F151-1A71-061D-35B4DF48846F</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3C955FB7-8FFA-B335-CD27-9E1E9AB137B3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>AFF3C2DB-2210-6318-FE01-A0489EF5AD2C</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F23DB805-2794-3F68-378C-A68004A1C0F4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>C5E56D99-5C53-9F6F-5ED7-056AED77CCBB</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="curso_id" id="B76255FB-5713-A2FB-EA41-E72B27E30E6A">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-09 02:38:24 UTC</createdTime>
+<generatorID>CABA82C0-981A-76C9-0374-BA906C8E257E</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE726AF7-8F5D-6A7E-4E97-106DA3B37825" referredColumn="0B498D21-C5FA-C579-15E9-AC74B4FA13D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BAFE3A7C-AA41-A137-E2FB-27F16C51A762" name="estudiante_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-08 04:17:58 UTC</createdTime>
+<generatorID>58E1BF1D-7A58-E344-F87F-CE768C69EF99</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C955FB7-8FFA-B335-CD27-9E1E9AB137B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D676D8E-6DEA-20F0-782C-C3E76A869DE8" name="estudiante_curso_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-09 02:38:24 UTC</createdTime>
+<generatorID>0B76D095-E6A4-2E76-BF60-FA8E62A633FE</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B76255FB-5713-A2FB-EA41-E72B27E30E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

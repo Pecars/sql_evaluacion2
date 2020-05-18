@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="053CA262-A9F3-218E-1A29-2EE601FF7FA2" name="revision">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>D9A93F01-65AF-1A22-58CE-EF872257DDC0</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D76ECD6D-29B0-E046-AA87-5454F19240D6">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>FAD6E039-CB4C-FCC4-1B9A-717DC9CB6621</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="buenas" id="3B97731A-FE54-32F4-747D-D2E4DAB84441">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>C9BA1191-17D9-4C1F-50BF-4D2D7AA6CEFC</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="malas" id="006E11FA-7B7F-7F44-99BF-0887B72C4841">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>8A2EFB60-617F-C709-D203-810F01115A00</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="51AE9C08-09FE-C087-A118-9053EF117D18">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>85DED24C-F6FF-0C42-0E14-9DC832E43F88</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_normalizado" id="49FF03A6-6F41-E20D-DA5C-8796FB520178">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>9CEF0B90-D2AD-3DF1-29D9-AC2C5426D785</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_id" id="1B673A7E-A01D-CA11-C35F-B014D4DCE3AD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>0C26DBCB-E282-3023-1A35-0371E0D8430D</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A6A6C59-07F9-B2F3-1598-7598F97AAA12" referredColumn="3C955FB7-8FFA-B335-CD27-9E1E9AB137B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB1E5DA5-A207-092D-092A-BF99673B2E3D" name="revision_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>2DE28D4A-3013-4452-7D61-A56AA896BDEF</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D76ECD6D-29B0-E046-AA87-5454F19240D6"/>
+<colUsage columnID="1B673A7E-A01D-CA11-C35F-B014D4DCE3AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B343CC3B-03D3-ED27-B5A8-6262635A97EF" name="revision_estudiante_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-05-17 22:54:32 UTC</createdTime>
+<generatorID>F4018B0E-70C7-9BAF-B310-C90ECA4EE4DE</generatorID>
+<ownerDesignName>m_logico_y_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B673A7E-A01D-CA11-C35F-B014D4DCE3AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
